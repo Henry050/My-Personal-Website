@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    position: sticky;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    z-index: 1000%;
+    font-size: large;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+header nav  h1{
+    padding-top: 10px;
+    padding-right: 900px;
+}
+
+header nav img{
+    border-radius: 50px;
+}
+
+.ul-tag{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.ul-tag li {
+    list-style-type: none;
+}
+
+.ul-tag li a{
+    text-decoration: none;
+    color: white;
+}
+
+.img-section{
+margin-left: 37.1%;
+margin-right: 33.1%;
+
+}
+
+.img-section .first-img {
+    position: absolute;
+    border-radius: 10px;
+}
+
+.img-section .second-img{
+    border: 5px solid rgb(209, 185, 185);
+    border-radius: 250px;
+    position: relative;
+    margin-top: 290px;
+    margin-right: 240px;
+    margin-left: 50px; 
+}
+
+.second-ul-tag{
+    display: flex;
+    background-color: #d1d0d0;
+    gap: 60px;
+    margin-top: 10px;
+    margin-left: 37.1%;
+    padding: 20px;
+    margin-right: 33.1%;
+}
+
+.second-ul-tag li{
+    list-style-type: none;
+}
+
+.second-ul-tag li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.Section-one{
+    margin-left: 30.1%;
+    margin-right: 24.1%;
+    margin-top: 70px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+.Section-one .section-p{ 
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.section-p button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: gray;
+    border: none;
+    position: relative;
+}
+
+.section-p button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Section-one .section-p2{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.contact-section-2{
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+}
+
+.contact-section-2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.last-home{
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: rgb(27, 23, 17);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.last-home p{
+    list-style-type: none;
+}
+
+.last-home p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.pic-section{
+    margin-top: 500px;
+    margin-bottom: 50px;
+    margin-left: 34.9%;
+    margin-right: 30.9%;
+    background-color: rgb(23, 26, 26);
+}
+
+.pic-section p{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.pic1{
+    transition: all ease-in 0.91s;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pic1:hover{
+    transform: scale(1.1);
+}
+
+.pic2{
+    transition: all ease-in 0.91s;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pic2:hover{
+    transform: scale(1.1);
+}
+
+.pic3{
+    transition: all ease-in 0.91s;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pic3:hover{
+    transform: scale(1.1);
+}
+
+.pic4{
+    transition: all ease-in 0.91s;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pic4:hover{
+    transform: scale(1.1);
+}
+
+.pic5{
+    transition: all ease-in 0.91s;
+    border-radius: 10px;
+    padding: 2px;
+}
+.pic5:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+footer{
+    background-color: rgb(23, 26, 26);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.con-foo{
+    background-color: rgb(23, 26, 26);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 450px;
+}
